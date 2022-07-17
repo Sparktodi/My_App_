@@ -11,6 +11,7 @@ import "channels"
 
 import '../stylesheets/application'
 import 'bootstrap/dist/js/bootstrap'
+global.toastr = require("toastr")
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
