@@ -1,13 +1,11 @@
-<h1>Home#index</h1>
-<% if user_signed_in? %>
+<h1 class="text-center m-5">Welcome to the App</h1>
 
+<h3 class="text-center m-5"> 
+<% if user_signed_in? %>
   <%= link_to('Edit registration', edit_user_registration_path) %>
   <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>
   <%= link_to art_path, class: 'login-button' do %>Go to App<% end %>
-
 <% else %>
-
-  <%= link_to('Register', new_user_registration_path)  %>
-  <%= link_to('Login', new_user_session_path)  %>  
-
-<% end %>
+  <%= link_to('Register', new_user_registration_path) %>
+  <%= link_to('Login', new_user_session_path) %>
+<% end %></h3>

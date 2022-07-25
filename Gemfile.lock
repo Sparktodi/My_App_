@@ -93,6 +93,9 @@ GEM
       warden (~> 1.2.3)
     erubi (1.10.0)
     ffi (1.15.5)
+    file_validators (3.0.0)
+      activemodel (>= 3.2)
+      mime-types (>= 1.0)
     globalid (1.0.0)
       activesupport (>= 5.0)
     i18n (1.12.0)
@@ -123,6 +126,9 @@ GEM
     marcel (1.0.2)
     matrix (0.4.2)
     method_source (1.0.0)
+    mime-types (3.4.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2022.0105)
     mini_mime (1.1.2)
     minitest (5.16.2)
     msgpack (1.5.3)
@@ -201,6 +207,9 @@ GEM
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
     semantic_range (3.0.0)
+    simple_form (5.1.0)
+      actionpack (>= 5.2)
+      activemodel (>= 5.2)
     spring (4.0.0)
     sprockets (4.1.1)
       concurrent-ruby (~> 1.0)
@@ -253,6 +262,7 @@ DEPENDENCIES
   cancancan
   capybara (>= 3.26)
   devise
+  file_validators
   jbuilder (~> 2.7)
   listen (~> 3.3)
   pg (~> 1.1)
@@ -262,6 +272,7 @@ DEPENDENCIES
   rails_admin
   sass-rails (>= 6)
   selenium-webdriver (>= 4.0.0.rc1)
+  simple_form
   spring
   turbolinks (~> 5)
   tzinfo-data

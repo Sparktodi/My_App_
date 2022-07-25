@@ -24,6 +24,8 @@ gem 'jbuilder', '~> 2.7'
 gem 'devise'
 gem 'rails_admin'
 gem 'cancancan'
+gem 'simple_form'
+gem 'file_validators'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
